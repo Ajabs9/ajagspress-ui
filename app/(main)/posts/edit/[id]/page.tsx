@@ -61,7 +61,7 @@ const PostEditPage = () => {
 
   return (
     <>
-      <BackButton text="Bact To Posts" link=".posts" />
+      <BackButton text="Bact To Posts" link="/posts" />
       <h3 className="text-2xl mb-4">Edit Post</h3>
       <Form {...form}>
         <form onSubmit={form.handleSubmit(handleSubmit)} className="space-y-8">
